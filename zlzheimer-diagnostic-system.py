@@ -130,14 +130,14 @@ def zlzheimer_diagnostic_system(is_demo=False):
                 max_index = img.shape[1]
             if dim == 'Z':
                 max_index = img.shape[2]
-            index = pywebio.input.slider("查看层数", max_value=max_index, step=1)
+            index = pywebio.input.slider("查看层数", max_value=max_index-5, step=1)
 
             if dim == 'X':
-                plt.imshow(img[index, :, :, :], cmap='gray')
+                plt.imshow(img[index+1, :, :, :], cmap='gray')
             if dim == 'Y':
-                plt.imshow(img[:, index, :, :], cmap='gray')
+                plt.imshow(img[:, index+1, :, :], cmap='gray')
             if dim == 'Z':
-                plt.imshow(img[:, :, index, :], cmap='gray')
+                plt.imshow(img[:, :, index+1, :], cmap='gray')
 
             plt.axis('off')
             png_path = './uploaded_img/' + generate_random_str() + '.png'
