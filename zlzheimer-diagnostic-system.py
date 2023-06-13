@@ -54,14 +54,19 @@ def zlzheimer_diagnostic_system(is_demo=False):
         nii_path = "./demodata/demo.nii"
         if not is_demo:
             input_img = pywebio.input.file_upload(label="上传图像", accept=[".nii"])
+            pywebio.output.popup("加载中", [
+                pywebio.output.put_loading(),
+            ])
             input_img = io.BytesIO(input_img['content'])
             nii_path = "./uploaded_img/" + generate_random_str() + ".nii"
             with open(nii_path, 'wb') as file:
                 file.write(input_img.getvalue())  # 保存到本地
 
-        pywebio.output.popup("加载中", [
-            pywebio.output.put_loading(),
-        ])
+        if is_demo:
+            pywebio.output.popup("加载中", [
+                pywebio.output.put_loading(),
+            ])
+            is_demo = False
 
         img = nibabel.load(nii_path)
         img = img.get_fdata()
