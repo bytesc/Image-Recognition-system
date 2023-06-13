@@ -1,0 +1,7 @@
+torch== 2.0.0
+matplotlib==3.7.0
+numpy==1.23.5
+Pillow==9.4.0
+nibabel==5.0.1
+pywebio==1.7.1
+pyecharts==2.0.2
