@@ -50,7 +50,8 @@ def zlzheimer_diagnostic_system(is_demo=False):
         pywebio.output.put_markdown("# 基于 PyWebIO 和 PyTorch 的阿尔兹海默智能诊断系统")
         pywebio.output.put_warning('识别结果仅供参考')
         pywebio.output.put_row([
-            pywebio.output.put_button('使用示例图像', onclick=lambda: zlzheimer_diagnostic_system(is_demo=True)),
+            pywebio.output.put_button('使用示例图像',
+                                      onclick=lambda: zlzheimer_diagnostic_system(is_demo=True), disabled=is_demo),
             pywebio.output.put_link(name="项目github仓库", url="https://github.com/bytesc/Image-Recognition-system"),
             pywebio.output.put_link(name="演示数据集", url="https://github.com/bytesc/lqdata"),
         ])
