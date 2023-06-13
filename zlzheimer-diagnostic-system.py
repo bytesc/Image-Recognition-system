@@ -92,6 +92,7 @@ def zlzheimer_diagnostic_system(is_demo=False):
             output = test_model(processed_img)
         ans_y = output.squeeze().tolist()
         print(ans_y)
+        del test_model,processed_img
 
         from datasets import LABEL_LIST
         if min(ans_y) < 0:
