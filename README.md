@@ -38,9 +38,13 @@ python zlzheimer-diagnostic-system.py
 ```
 
 复制链接到浏览器打开
+
 ![image](./readme_img/4.png)
+
 点击”Demo“即可进入 Web 界面
+
 ![image](./readme_img/5.png)
+
 之后，可以点击“使用示例图像”使用默认的测试样例。也可以上传.nii 图像文件上传测试。
 我在 [`lqdata`仓库](https://github.com/bytesc/lqdata) 提供了少量示例图像数据。
 ```bash
