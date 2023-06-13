@@ -57,7 +57,7 @@ def zlzheimer_diagnostic_system(is_demo=False):
               # input_img = pywebio.input.file_upload(label="上传图片", accept=[".jpg", ".png", ".jpeg"])
         nii_path = "./demodata/demo.nii"
         if not is_demo:
-            input_img = pywebio.input.file_upload(label="上传图像", accept=[".nii"])
+            input_img = pywebio.input.file_upload(label="上传图像", accept=[".nii"], required=True)
             pywebio.output.popup("加载中", [
                 pywebio.output.put_loading(),
             ])
@@ -122,7 +122,7 @@ def zlzheimer_diagnostic_system(is_demo=False):
             if act == '上传新图像':
                 pywebio.output.clear()
                 break
-            dim = pywebio.input.radio('查看视角', ['X', 'Y', 'Z'])
+            dim = pywebio.input.radio('查看视角', ['X', 'Y', 'Z'],required=True)
             max_index = 0
             if dim == 'X':
                 max_index = img.shape[0]
