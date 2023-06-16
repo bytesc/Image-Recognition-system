@@ -4,6 +4,8 @@
 
 简单医学影像识别系统，图像识别可视化界面，OCR，快速部署深度学习模型为网页应用，Web 预测系统，图像识别前端网页，图像识别 Demo 展示-Pywebio。AI 人工智能图像识别-Pytorch；nii 医学影像处理；ADNI 数据集。100%纯 Python 代码，轻量化，易复现
 
+[个人网站：www.bytesc.club](http://www.bytesc.club) 包含在线演示
+
 ## 功能简介
 
 - 1, 根据脑部 MRI 医学影像智能诊断阿尔兹海默病
