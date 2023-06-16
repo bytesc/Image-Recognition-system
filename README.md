@@ -4,6 +4,8 @@
 
 简单医学影像识别系统，图像识别可视化界面，OCR，快速部署深度学习模型为网页应用，Web 预测系统，图像识别前端网页，图像识别 Demo 展示-Pywebio。AI 人工智能图像识别-Pytorch；nii 医学影像处理；ADNI 数据集。100%纯 Python 代码，轻量化，易复现
 
+[个人网站：www.bytesc.club](http://www.bytesc.club) 包含在线演示
+
 ## 功能简介
 
 - 1, 根据脑部 MRI 医学影像智能诊断阿尔兹海默病
@@ -23,6 +25,8 @@
 
 python 版本 3.9
 
+需要 `4GB` 以上内存
+
 先安装依赖
 
 ```bash
@@ -36,9 +40,13 @@ python zlzheimer-diagnostic-system.py
 ```
 
 复制链接到浏览器打开
+
 ![image](./readme_img/4.png)
+
 点击”Demo“即可进入 Web 界面
+
 ![image](./readme_img/5.png)
+
 之后，可以点击“使用示例图像”使用默认的测试样例。也可以上传.nii 图像文件上传测试。
 我在 [`lqdata`仓库](https://github.com/bytesc/lqdata) 提供了少量示例图像数据。
 ```bash
