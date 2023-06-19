@@ -123,21 +123,23 @@ def zlzheimer_diagnostic_system(is_demo=False):
             if act == '上传新图像':
                 pywebio.output.clear()
                 break
-            dim = pywebio.input.radio('查看视角', ['X', 'Y', 'Z'],required=True)
+            dim = pywebio.input.radio(label='查看视角', options=[('X',0,True), ('Y',1,False), ('Z',2,False)],
+                                      required=True, inline=True)
             max_index = 0
-            if dim == 'X':
+            print(dim)
+            if dim == 0:
                 max_index = img.shape[0]
-            if dim == 'Y':
+            if dim == 1:
                 max_index = img.shape[1]
-            if dim == 'Z':
+            if dim == 2:
                 max_index = img.shape[2]
-            index = pywebio.input.slider("查看层数", max_value=max_index-5, step=1)
+            index = pywebio.input.slider("查看层数", max_value=max_index-5, step=1, value=100)
 
-            if dim == 'X':
+            if dim == 0:
                 plt.imshow(img[index+1, :, :, :], cmap='gray')
-            if dim == 'Y':
+            if dim == 1:
                 plt.imshow(img[:, index+1, :, :], cmap='gray')
-            if dim == 'Z':
+            if dim == 2:
                 plt.imshow(img[:, :, index+1, :], cmap='gray')
 
             plt.axis('off')
