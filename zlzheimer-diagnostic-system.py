@@ -66,7 +66,7 @@ def zlzheimer_diagnostic_system(is_demo=False):
               # input_img = pywebio.input.file_upload(label="上传图片", accept=[".jpg", ".png", ".jpeg"])
         nii_path = "./demodata/demo.nii"
         if not is_demo:
-            act = pywebio.input.actions(' ', ['上传图像'], )
+            pywebio.input.actions("", [{'label': "上传图像", 'value': "", 'color': 'success', }])
             input_img = pywebio.input.file_upload(label="上传图像", accept=[".nii"], required=True)
             pywebio.output.popup("加载中", [
                 pywebio.output.put_loading(),
@@ -163,7 +163,7 @@ if __name__ == "__main__":
         auto_open_webbrowser=False, # 不自动打开浏览器
         cdn=False, # 不使用 cdn
         debug=True, # 可以看到报错
-        port=8080  # 运行在 8080 端口
+        port=6006  # 运行在 6006 端口
     )
     # start_server 函数启动一个 http 服务器
 
