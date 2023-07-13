@@ -20,6 +20,8 @@
   ![image](./readme_img/2.png)
 - 模型输出图表
   ![image](./readme_img/3.png)
+- 查看上传的图像
+  ![image](./readme_img/3.1.png)
 
 ## 如何使用
 

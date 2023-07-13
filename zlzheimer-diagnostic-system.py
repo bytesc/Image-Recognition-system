@@ -55,9 +55,18 @@ def zlzheimer_diagnostic_system(is_demo=False):
             pywebio.output.put_link(name="项目github仓库", url="https://github.com/bytesc/Image-Recognition-system"),
             pywebio.output.put_link(name="演示数据集", url="https://github.com/bytesc/lqdata"),
         ])
+        train_img = PIL.Image.open("./img/net_graph.png")
+        brain_img = PIL.Image.open("./img/brain_demo1.png")
+        pywebio.output.put_row(
+            [pywebio.output.put_collapse("", [pywebio.output.put_image(train_img)], open=True),
+             pywebio.output.put_collapse("", [pywebio.output.put_image(brain_img),
+                                              pywebio.output.put_link(name=" 参考文献", url="https://github.com/moboehle/Pytorch-LRP"),], open=True),
+             ]
+        )
               # input_img = pywebio.input.file_upload(label="上传图片", accept=[".jpg", ".png", ".jpeg"])
         nii_path = "./demodata/demo.nii"
         if not is_demo:
+            act = pywebio.input.actions(' ', ['上传图像'], )
             input_img = pywebio.input.file_upload(label="上传图像", accept=[".nii"], required=True)
             pywebio.output.popup("加载中", [
                 pywebio.output.put_loading(),
