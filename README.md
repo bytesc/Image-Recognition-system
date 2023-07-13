@@ -56,6 +56,8 @@ python zlzheimer-diagnostic-system.py
 git clone https://github.com/bytesc/lqdata.git
 ```
 
+- 如果上传图像后报错，可能需要在根目录下手动创建文件夹`uploaded_img`
+
 ## 项目结构
 
 ```
