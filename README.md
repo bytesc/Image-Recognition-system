@@ -21,7 +21,7 @@
 - 模型输出图表
   ![image](./readme_img/3.png)
 - 查看上传的图像
-  ![image](./readme_img/3.1.png)
+  ![image](./readme_img/3-1.png)
 
 ## 如何使用
 
@@ -51,6 +51,7 @@ python zlzheimer-diagnostic-system.py
 
 之后，可以点击“使用示例图像”使用默认的测试样例。也可以上传.nii 图像文件上传测试。
 我在 [`lqdata`仓库](https://github.com/bytesc/lqdata) 提供了少量示例图像数据。
+
 ```bash
 git clone https://github.com/bytesc/lqdata.git
 ```
@@ -258,4 +259,3 @@ MIT 开源许可证：
 上述版权声明和本许可声明应包含在所有副本或实质性部分中。
 
 本软件按“原样”提供，不作任何明示或暗示的保证，包括但不限于适销性、特定用途适用性和非侵权性。在任何情况下，作者或版权持有人均不对因使用本软件而产生的任何索赔、损害或其他责任负责，无论是在合同、侵权或其他方面。
-
