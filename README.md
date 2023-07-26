@@ -1,8 +1,10 @@
 # Image-Recognition-system
 
-基于 ADNI 数据集的阿尔兹海默智能诊断 Web 应用
+✨ **基于 3D 卷积神经网络(CNN)的阿尔兹海默智能诊断 Web 应用**
 
 简单医学影像识别系统，图像识别可视化界面，OCR，快速部署深度学习模型为网页应用，Web 预测系统，图像识别前端网页，图像识别 Demo 展示-Pywebio。AI 人工智能图像识别-Pytorch；nii 医学影像处理；ADNI 数据集。100%纯 Python 代码，轻量化，易复现
+
+🚩[Readme in English](./README.en.md)
 
 [个人网站：www.bytesc.top](http://www.bytesc.top) 包含在线演示
 
