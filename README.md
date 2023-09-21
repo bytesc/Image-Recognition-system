@@ -8,6 +8,10 @@
 
 [个人网站：www.bytesc.top](http://www.bytesc.top) 包含在线演示
 
+[个人博客：blog.bytesc.top](http://blog.bytesc.top)
+
+🔔 如有项目相关问题，欢迎在本项目提出`issue`，我一般会在 24 小时内回复。
+
 ## 功能简介
 
 - 1, 根据脑部 MRI 医学影像智能诊断阿尔兹海默病

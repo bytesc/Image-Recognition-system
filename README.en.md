@@ -8,6 +8,10 @@ A simple medical image recognition system, image recognition visualization inter
 
 [Personal website: www.bytesc.top](http://www.bytesc.top) includes online demonstrations
 
+[Personal blog: blog.bytesc.top](http://blog.bytesc.top) 
+
+🔔 If you have any project-related questions, feel free to raise an `issue` in this project, I will usually reply within 24 hours.
+
 ## Function introduction
 
 - 1. Intelligent diagnosis of Alzheimer's disease based on brain MRI medical images
