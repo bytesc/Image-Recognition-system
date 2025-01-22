@@ -6,7 +6,7 @@
 
 🚩[Readme in English](./README.en.md)
 
-[个人网站：www.bytesc.top](http://www.bytesc.top) 包含在线演示
+[个人网站：www.bytesc.top](http://www.bytesc.top) 
 
 [个人博客：blog.bytesc.top](http://blog.bytesc.top)
 

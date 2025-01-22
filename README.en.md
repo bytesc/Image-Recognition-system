@@ -6,7 +6,7 @@ A simple medical image recognition system, image recognition visualization inter
 
 [简体中文文档](./README.md)
 
-[Personal website: www.bytesc.top](http://www.bytesc.top) includes online demonstrations
+[Personal website: www.bytesc.top](http://www.bytesc.top)
 
 [Personal blog: blog.bytesc.top](http://blog.bytesc.top) 
 
