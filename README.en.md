@@ -4,6 +4,8 @@
 
 A simple medical image recognition system, image recognition visualization interface, OCR, fast deployment of deep learning models as web applications, web prediction system, image recognition front-end web page, image recognition Demo display-Pywebio. AI artificial intelligence image recognition-Pytorch; nii medical image processing; ADNI dataset. 100% pure Python code, lightweight, easy to reproduce
 
+[📽️ Demo Video ./demo_video.mp4](./demo_video.mp4)
+
 [简体中文文档](./README.md)
 
 [Personal website: www.bytesc.top](http://www.bytesc.top)
